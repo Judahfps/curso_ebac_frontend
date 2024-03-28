@@ -22,13 +22,20 @@ const Rodape = () => {
                     <p>Jaqueline Cavalcante</p>
 
                     <div id='footer-Midia'>
-                        <a href="#" className='footer-Link'></a>
+                        <a href="https://www.instagram.com/nutri_jaquelinecavalcante/"
+                        target='_blank' className='footer-Link'>
+                            
+                        </a>
                         <FontAwesomeIcon id='instagram' icon={faInstagram} />
 
-                        <a href="#" className='footer-Link'></a>
-                        <FontAwesomeIcon id='facebook' icon={faFacebook} />
+                        <a href="#" className='footer-Link'>
 
-                        <a href="#" className='footer-Link'></a>
+                        </a>
+                        <FontAwesomeIcon id='facebook' icon={faFacebook}/>
+
+                        <a href="#" className='footer-Link'>
+                            
+                        </a>
                         <FontAwesomeIcon id='whatsapp' icon={faWhatsapp} />
                     </div>
 
@@ -39,7 +46,7 @@ const Rodape = () => {
                         <h3>Blog</h3>
                     </li>
                     <li>
-                        <a href="#" className='footer-Link'>Tech</a>
+                        <a href="https://www.instagram.com/alexandre_al/" target='_blank' className='footer-Link'>Personal Trainer</a>
                     </li>
                     <li>
                         <a href="#" className='footer-Link'>Adventures</a>
@@ -54,7 +61,7 @@ const Rodape = () => {
                         <h3>Produtos</h3>
                     </li>
                     <li>
-                        <a href="#" className='footer-Link'>App</a>
+                        <a href="https://www.calculoimc.com.br/tabela-de-imc/" target='_blank' className='footer-Link'>Tabela IMC</a>
                     </li>
                     <li>
                         <a href="#" className='footer-Link'>Desktop</a>
@@ -73,6 +80,7 @@ const Rodape = () => {
                         <input type="email" id='email' placeholder='Digite seu email' />
                         <input type="tel" id='tel' placeholder='Digite seu telefone' />
                         <button><FontAwesomeIcon icon={faEnvelope} /></button>
+                        
                     </div>
 
                 </div>

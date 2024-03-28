@@ -65,6 +65,7 @@ footer {
     width: 2.5rem;
     border-radius: 50%;
     transition: all 0.4s;
+    cursor: pointer;
 }
 
 #instagram:hover {
@@ -81,6 +82,7 @@ footer {
     width: 2.5rem;
     border-radius: 50%;
     transition: all 0.4s;
+    cursor: pointer;
 }
 #facebook:hover {
     transform: scale(1.5);
@@ -96,6 +98,7 @@ footer {
     width: 2.5rem;
     border-radius: 50%;
     transition: all 0.4s;
+    cursor: pointer;
 }
 
 #whatsapp:hover {
@@ -151,6 +154,9 @@ footer {
     text-align: center;
 }
 
+::placeholder {
+    color: #0e0c0c;
+}
 
 .input-Group button {
     background-color: var(--color-neutral-30);
@@ -186,6 +192,7 @@ footer {
     .container-Primary {
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
+        
     }
 
     .footer-List {
@@ -199,6 +206,13 @@ footer {
     }
 
 }
+
+
+@media (max-width: 8in) {
+
+}
+
+
 
 
 

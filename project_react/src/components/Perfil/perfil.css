@@ -53,7 +53,7 @@ body {
     border-radius: 10px;
     outline: none;
     text-align: center;
-    background-color: var(--color-neutral-40);
+    background: linear-gradient(to right, #54cfee, #54cfee, #2f5df5)
     
 }
 
@@ -71,7 +71,7 @@ body {
     outline: none;
     height: 40px;
     width: 300px;
-    background-color: var(--color-neutral-40);
+    background: linear-gradient(to right, #54cfee, #54cfee, #2f5df5);
     cursor: pointer;
 }
 
@@ -79,12 +79,12 @@ body {
     background-color: #411af0;
     opacity: 0.8;
     transition: all 1s;
+    transform: scale(1.2);
 }
 
 .resIMC {
     display: flex;
-    flex-direction:row;
-    justify-content:center;
+    padding-left: 10px;
     border: 1px solid var(--color-border);
     height: 40px;   
     width: 300px;
@@ -96,6 +96,10 @@ body {
     font-family: sans-serif;
     font-size: 15px;
 }
+span {
+    display: flex;
+    gap: 2px;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -104,5 +108,4 @@ body {
         padding: 3rem 2rem;
         flex-direction: column;
     }
-
 }
