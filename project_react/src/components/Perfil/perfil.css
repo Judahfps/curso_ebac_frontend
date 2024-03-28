@@ -1,0 +1,108 @@
+:root {
+    --color-neutral-0: #0e0c0c;
+    --color-netral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+    --color-border: rgb(0, 0, 0);
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+body {
+    background: linear-gradient(to right, #54cfee, #54cfee, #2f5df5);
+}
+
+
+.perfil-titulo {
+    font-family: sans-serif;
+    font-size: 50px;
+    margin: 30px;
+}
+
+
+.container-Form {
+    height: 500px;
+    width: 450px;
+    border: 1px solid var(--color-border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.Input-Form {
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Input-Form .Id-Input {
+    height: 40px;
+    width: 300px;
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    background-color: var(--color-neutral-40);
+    
+}
+
+::placeholder {
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#Id-Button {
+    font-size: 15px;
+    font-family: sans-serif;
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    outline: none;
+    height: 40px;
+    width: 300px;
+    background-color: var(--color-neutral-40);
+    cursor: pointer;
+}
+
+#Id-Button:hover {
+    background-color: #411af0;
+    opacity: 0.8;
+    transition: all 1s;
+}
+
+.resIMC {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    border: 1px solid var(--color-border);
+    height: 40px;   
+    width: 300px;
+    border-radius: 10px;
+    align-items: center;
+    outline: none;
+    box-shadow: none;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+        flex-direction: column;
+    }
+
+}
