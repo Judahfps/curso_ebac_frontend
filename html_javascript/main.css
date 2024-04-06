@@ -44,17 +44,13 @@ section nav button {
     text-decoration: none;
     border-radius: 10px;
     background: var(--dark-bg);
-    margin: 0 15px;   
+    margin: 0 15px;
+     
 }
-
 
 section nav a {
     text-decoration: none;
     color: var(--buscar);
-}
-
-section nav a:hover {
-    color: var(--text-color);
 }
 
 header {
