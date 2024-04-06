@@ -53,6 +53,10 @@ section nav a {
     color: var(--buscar);
 }
 
+
+section nav a:hover {
+    color: var(--text-color);
+}
 header {
     display: flex;
     align-items: center;
