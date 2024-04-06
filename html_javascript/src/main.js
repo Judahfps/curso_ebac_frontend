@@ -17,22 +17,22 @@ function addContato() {
     const inputTel = document.getElementById('input-tel');
     const inputEmail = document.getElementById('input-email');
 
-    nome.push(inputNome.value);
-    tel.push(parseInt(inputTel.value));
-    email.push(inputEmail);
+        nome.push(inputNome.value);
+        tel.push(parseInt(inputTel.value));
+        email.push(inputEmail);
 
-    let linha = '<tr>';
-    linha += `<td>${inputNome.value}</td>`;
-    linha += `<td>${inputTel.value}</td>`;
-    linha += `<td>${inputEmail.value}</td>`
-    linha += `</tr>`
+        let linha = '<tr>';
+        linha += `<td>${inputNome.value}</td>`;
+        linha += `<td>${inputTel.value}</td>`;
+        linha += `<td>${inputEmail.value}</td>`
+        linha += `</tr>`
 
-    linhas += linha
+        linhas += linha
 
 
-    inputNome.value = '';
-    inputTel.value = '';
-    inputEmail.value = '';
+        inputNome.value = '';
+        inputTel.value = '';
+        inputEmail.value = '';
 };
 
 function atualizarListaDeContatos() {
