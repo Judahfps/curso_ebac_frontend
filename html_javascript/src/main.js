@@ -4,9 +4,6 @@ const tel = [];
 const email = [];
 let linhas = '';
 
-
-
-
 formWrapper.addEventListener('submit', function(e) {
     e.preventDefault()
 
@@ -28,6 +25,7 @@ function addContato() {
     linha += `<td>${inputNome.value}</td>`;
     linha += `<td>${inputTel.value}</td>`;
     linha += `<td>${inputEmail.value}</td>`
+    linha += `</tr>`
 
     linhas += linha
 
@@ -37,9 +35,7 @@ function addContato() {
     inputEmail.value = '';
 };
 
-
-
 function atualizarListaDeContatos() {
     const corpoTabela = document.querySelector('tbody');
     corpoTabela.innerHTML = linhas
-}
+};

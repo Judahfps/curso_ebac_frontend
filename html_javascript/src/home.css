@@ -61,3 +61,7 @@ button {
     background-color: transparent;
     border: none;
 }
+
+button a img:hover {
+    transform: scale(1.1);
+}
