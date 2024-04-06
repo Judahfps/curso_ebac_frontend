@@ -1,0 +1,63 @@
+
+:root {
+    --dark-bg: #333;
+    --dark-text: #fff;
+    --transparent-bg: rgba(0, 0, 0, 0.5);
+    --transparent-hover-bg: rgba(0, 0, 0, 0.8);
+    --dark-shadow: rgba(0, 0, 0, 0.5);
+    --bg-color: #1e1e1e;
+    --text-color: #c4c4cc;
+    --button: #F48F56;
+    --hover: #f35e08;
+    --buscar: #848486;
+}
+
+
+/* .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  } */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+body {
+    background: var(--dark-text);
+}
+
+.container, span {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+i img {
+    width: 250px;
+    height: 250px;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
